@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>SSB</title>
+    <style>
+/* Colors */
+.header {
+  background-color: #4484CE;
+  color: #FFFFFF;
+  
+}
+
+.header-search {
+  background-color: #7aa8dc;
+  color: #FFFFFF;
+}
+
+body {
+  background-color: #FDFDFE;
+}
+
+.article-header {
+  background-color: #FFFFFF;
+}
+
+.article-summery{
+    background-color: #d3d3d3;
+}
+
+
+.article-tag {
+  background-color: #d3d3d3;
+}
+
+.main-header-timestamp {
+  color: #6c6c6c;
+}
+
+.news-article-header {
+  color: #212121;
+}
+
+.news-article-summery{
+  color: #4a4a4a;
+}
+
+.main-header-header{
+  color: #4a4a4a;
+}
+
+.section-header {
+  color: #4a4a4a;
+}
+
+.footer {
+  background-color: #4c4c4c;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.article-header{
+  font-size: 20px;
+}
+.news-article-header {
+  font-size: 20px;
+}
+
+.article-tag{
+  font-size: 14px;
+}
+.news-article-tag {
+  font-size: 14px;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.news-article {
+  height: 350px;
+}
+
+.news-article-image {
+  height: 200px;
+}
+.nav-list{
+    display:flex;
+    height: 50px;
+    justify-content: space-between;
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div class="header-title">
+                <h1>
+                    <span class="header-title-letter">S</span>
+                    <span class="header-title-letter">S</span>
+                    <span class="header-title-letter">B</span>
+                    
+                </h1>
+            </div>
+
+            <nav>
+            
+                <ul class="nav-list">
+                    <li class="header-list-item-link"><a href="#" class="link header-link">Hem</a></li>
+                    <li class="header-list-item-link"><a href="#" class="link header-link">Nyheter</a></li>
+                    <li class="header-list-item-link"><a href="#" class="link header-link">Sport</a></li>
+                    <li class="header-list-item-link"><a href="#" class="link header-link">Arbete</a></li>
+                    <li class="header-list-item-link"><a href="#" class="link header-link">Teknologi</a></li>
+                    <li class="header-list-item-link"><a href="#" class="link header-link">Kultur</a></li>                    
+                </ul>
+                
+            </nav>
+            <div>
+                <input class="header-search" type="search" name="" id="" placeholder="Sök">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section class="main-header">
+                <h2 class="main-header-header">Välkommen till SSB.se</h2>
+                <p class="main-header-timestamp">Fredag, 28 Oktober</p>
+            </section>
+            <section class="featured-articles">
+                <article class="article main-article">
+                    <div class="article-overlay"></div>
+                    <div class="main-article-play-icon">&#9654;</div>
+                    <div class="article-content">
+                        
+                        <h3 class="article-header main-article-header">
+                            Se Sveriges första fotbolls-lag.
+                        </h3>
+                        <p class="article-summery">
+                            Första fotbolls-laget som bildades 1912.
+                        </p>
+                        <button class="news-article-button">
+                            <span class="badge"></span>
+                            Läs mer</button>
+                        <a class="article-tag tag">sport</a>
+                    </div>
+                </article>
+                <article class="article article1">
+                    <div class="article-overlay"></div>
+                    <div class="article-content">
+                        
+                        <h3 class="article-header">
+                            Kungen firar 50 år på tronen!
+                        </h3>
+                        <button class="news-article-button">
+                            <span class="badge"></span>
+                            Läs mer</button>
+                        <a class="article-tag tag">politik</a>
+                    </div>
+                </article>
+                <article class="article article2">
+                    <div class="article-overlay"></div>
+                    <div class="article-content">
+                        
+                        <h3 class="article-header">
+                            Stockholms slott under 1810
+                        </h3>
+                        <button class="news-article-button">
+                            <span class="badge"></span>
+                            Läs mer</button>
+                        <a class="article-tag tag">kultur</a>
+                    </div>
+                </article>
+                <article class="article article3">
+                    <div class="article-overlay"></div>
+                    <div class="article-content">
+                        
+                        <h3 class="article-header">
+                            Frankrike förbjuder Iphone 12
+                        </h3>
+                        <button class="news-article-button">
+                            <span class="badge"></span>
+                            Läs mer</button>
+                        <a class="article-tag tag">teknologi</a>
+                    </div>
+                </article>
+                <article class="article article4">
+                    <div class="article-overlay"></div>
+                    <div class="article-content">
+                        
+                        <h3 class="article-header">
+                            Hur många grader får det vara på en arbetsplats?
+                        </h3>
+                        <button class="news-article-button">
+                            <span class="badge"></span>
+                            Läs mer</button>
+                        <a class="article-tag tag">arbete</a>
+                    </div>
+                </article>
+                <article class="article article5">
+                    <div class="article-overlay"></div>
+                    <div class="article-content">
+                        
+                        <h3 class="article-header">
+                            Fotbolls arena brinner.
+                        </h3>
+                        <button class="news-article-button">
+                            <span class="badge"></span>
+                            Läs mer</button>
+                        <a class="article-tag tag">sport</a>
+                    </div>
+                </article>
+            </section>
+            <section class="news">
+                <h2 data-content="📰" class="tag section-header">Nyheter</h2>
+                <div class="news-articles">
+                    
+                    <article class="news-article">
+                        <img class="news-article-image" src="./images/vattenmars.jpg" alt="vattenmars" >
+                        <div class="news-article-content">
+                            
+                            <h3 class="article-header news-article-header">
+                                Uttorkad sjö hittad på Mars!
+                            </h3>
+                            <button class="news-article-button">
+                                <span class="badge"></span>
+                                Läs mer</button>
+                            <button data-text="Icke klickbar" disabled="true" class="news-article-button">
+                                <span class="badge"></span>
+                                Läs mer gammal</button>
+                            <br>
+                            <a class="news-article-tag tag">sport</a>
+                        </div>
+                    </article>
+                    
+                    
+                    <article class="news-article">
+                        <img class="news-article-image" src="./images/snöberg.jpg" alt="fjällen" >
+                        <div class="news-article-content">
+                            
+                            <h3 class="article-header news-article-header">
+                                Långfärdsskidor i fjällen - är det farligt?
+                            </h3>
+                            <button class="news-article-button">
+                                <span class="badge"></span>
+                                Läs mer</button>
+                            <a class="news-article-tag tag">sport</a>
+                        </div>
+                    </article>
+                    
+                    
+                    <article class="news-article">
+                        <img class="news-article-image" src="./images/vulkan.jpg" alt="vulkan" >
+                        <div class="news-article-content">
+                            
+                            <h3 class="article-header news-article-header">
+                                Fotbollslag ramlar ner i vulkan!
+                            </h3>
+                            <button class="news-article-button">
+                                <span class="badge"></span>
+                                Läs mer</button>
+                            <a class="news-article-tag tag">sport</a>
+                        </div>
+                    </article>
+                    
+                    
+                    <article class="news-article">
+                        <img class="news-article-image" src="./images/berg.jpg" alt="bergsklättring" >
+                        <div class="news-article-content">
+                            
+                            <h3 class="article-header news-article-header">
+                                Sverige vinner i bergsklättring
+                            </h3>
+                            <button class="news-article-button">
+                                <span class="badge"></span>
+                                Läs mer</button>
+                            <a class="news-article-tag tag">sport</a>
+                        </div>
+                    </article>
+                    
+                    
+                    <article class="news-article">
+                        <img class="news-article-image" src="./images/seattle.jpg" alt="seattle" >
+                        <div class="news-article-content">
+                            
+                            <h3 class="article-header news-article-header">
+                                Sim-atlet simmar från Florida till Seattle.
+                            </h3>
+                            <button class="news-article-button">
+                                <span class="badge"></span>
+                                Läs mer</button>
+                            <a class="news-article-tag tag">sport</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="world">
+                <h2 data-content="🌎" class="tag section-header">Världen</h2>
+                ...
+                <img src="./images/vattenklippa.jpg" alt="klippa delas">
+            </section>
+            <section class="world">
+                <h2 data-content="📱" class="tag section-header">Teknologi</h2>
+                ...
+            </section>
+        </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <h2 class="footer-header">Utforska SSB</h2>
+                <ul class="link-grid">
+                    <li class="footer-list-item link"><a href="#" class="link footer-link">Hem</a></li>
+                    <li class="footer-list-item link"><a href="#" class="link footer-link">Nyheter</a></li>
+                    <li class="footer-list-item link"><a href="#" class="link footer-link">Sport</a></li>
+                    <li class="footer-list-item link"><a href="#" class="link footer-link">Arbete</a></li>
+                    <li class="footer-list-item link"><a href="#" class="link footer-link">Teknologi</a></li>
+                    <li class="footer-list-item link"><a href="#" class="link footer-link">Kultur</a></li>
+                    <li class="footer-list-item link"><a href="#" class="link footer-link">Väder</a></li>
+            </div>
+            
+        </ul>
+    </footer>
+</body>
+</html>
